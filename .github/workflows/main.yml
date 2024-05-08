@@ -1,0 +1,10 @@
+            - name: setup-codeclimate
+  # You may pin to the exact commit or the version.
+  # uses: remarkablemark/setup-codeclimate@24ff84c44fb835ee03940903532c983d9419c759
+  uses: remarkablemark/setup-codeclimate@v2.0.3
+  with:
+    # Code Climate test reporter version
+    codeclimate-version: # optional, default is latest
+    # Code Climate test reporter CLI name
+    cli-name: # optional, default is cc-test-reporter
+          
